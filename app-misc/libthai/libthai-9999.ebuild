@@ -14,7 +14,8 @@ LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-misc/libdatrie"
+RDEPEND="app-misc/libdatrie"
+DEPEND="${RDEPEND}"
 
 src_prepare() {
 	default
